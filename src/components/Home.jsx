@@ -98,11 +98,14 @@ export default function Home() {
             setRows(tempRows);
           }
           setProductName('');
+          setCategory('');
           setIsSaving(false);
           setShowAdd(!showAdd);
         });
     }
     else {
+        setProductName('');
+        setCategory('');
         setIsSaving(false);
         setShowAdd(!showAdd);
     }
