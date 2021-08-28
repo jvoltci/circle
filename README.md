@@ -40,6 +40,18 @@ https://ivehement.herokuapp.com/product/subcategory/:id
 #Response
 [{"id": 24, "ProductName": "Redmi Note 3", "subCategory": 1}]
 ```
+POST request to add a product to the list with category and subcategory.
+```bash
+#Resquest
+{
+  "ProductName": "Macbook Air"
+  "SubCategory": 2
+ 
+}
+https://ivehement.herokuapp.com/product
+#Response
+{"Added Succesfully!"}
+```
 
 
 
