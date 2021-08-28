@@ -99,6 +99,7 @@ export default function Home() {
           }
           setProductName('');
           setCategory('');
+          setSubcategory('');
           setIsSaving(false);
           setShowAdd(!showAdd);
         });
@@ -106,6 +107,7 @@ export default function Home() {
     else {
         setProductName('');
         setCategory('');
+        setSubcategory('');
         setIsSaving(false);
         setShowAdd(!showAdd);
     }
